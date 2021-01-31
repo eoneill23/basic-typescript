@@ -1,3 +1,4 @@
+"use strict";
 var userInput;
 var userName;
 userInput = 5;
@@ -8,4 +9,4 @@ if (typeof userInput === 'string') {
 function generateError(message, code) {
     throw { message: message, errorCode: code };
 }
-generateError('An error occured!', 500);
+//generateError('An error occured!', 500);
