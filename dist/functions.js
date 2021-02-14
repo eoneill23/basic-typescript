@@ -6,11 +6,11 @@ function printResult(num) {
     console.log('Result: ' + num);
 }
 function addAndHandle(n1, n2, cb) {
-    var result = n1 + n2;
+    const result = n1 + n2;
     cb(result);
 }
 printResult((add(5, 12)));
-var combineValues;
+let combineValues;
 combineValues = add;
 //combineValues = printResult;
 //combineValues = 5;
